@@ -1,0 +1,72 @@
+body{
+	margin:0;
+	background-color: #f1f1f1;
+}
+header{
+	background-color: green;
+	text-align : center;
+	padding: 20px;
+	color: Black;
+	font-family:"comic sans ms",Arial;
+	}
+nav{
+	overflow: hidden;
+	background-color: #333;
+}
+nav a{
+	Float: left;
+	color: #fff;
+	Padding: 14px 12px 11px 10px;
+	text-decoration:none;
+}
+nav a:hover{
+	background-color:black;
+	color:white;
+}
+.column{
+	Float:left;
+	padding:10px;
+}
+.column.side{
+	width: 20%;
+}
+.column.middle{
+	width : 50%
+}
+footer{
+	clear: both;
+	background-color: green;
+	color:white;
+	padding :20px;
+	text-align : center;
+	font-family: "comic sans ms";
+	
+}
+input[type=text], select, textarea{
+	width: 100%;
+	padding:12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type=submit]{
+	background-color: grey;
+	color: white;
+	padding: 12px 20px;
+	cursor: pointer;
+	border: none;
+}
+
+@media screen and (max-width: 617px)
+{
+	.column.side, .column.middle{
+		width: 100%
+	}
+p{
+	text-align : justify;
+		
+}
+
+
+

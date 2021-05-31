@@ -7,11 +7,11 @@
 
 </head>
 <body>
-<div class="header">
-	<nav>
-	<h1>Dorje</h1>
-			<div class="nav-links">
-			<ul>
+<div class="nav-bar">
+			
+			<div class="menu-right">
+				<span onClick="myFunction()">&#9776 </span>
+			<ul ID="menu">
 				<li><a href="Home.html">Home</a></li>
 				<li><a href="Portfolio.html">Portfolio</a></li>
 				<li><a href="contact.html">Contact</a></li>
@@ -20,35 +20,34 @@
 				
 			</ul>
 			</div></nav>
-		
-		<div class="rapper">
-			<div id="content1">Sent your request <p>
-	<form>
-		<div class="input-row">
+			
+		<div class="wrapper">
+		<h1>Connect With Us<p>I would love to respond to your Queries and help you succeed.Feel free to get in touch with me.</p></h1>
+		</div>
+		<div class="container">
+		<div id="input-row">Sent me Request<div><p>
+		<form>
 		<div class="input-group">
-		<label>Name     </label>
+		<label>Name:    </label>
 		<input type="text" placeholder="Stephen curry"></div><br>
 		<div class="input-group">
-		<label>Phone  </label>
+		<label>Phone:  </label>
 		<input type="Number" placeholder="9844556688"></div><br>
 		<div class="input-group">
-		<label>Email  </label>
+		<label>Email:  </label>
 		<input type="text" placeholder="Stephencurry19@gamil.com"></div><br>
 		<div class="input-group">
-		<label>Subject</label>
+		<label>Subject:</label>
 		<input type="text" placeholder="Product Demo"></div><br>
 		<div class="input-group">
-		<label>Message</label>
+		<label>Message:</label>
 		<input type="text" placeholder="Your Message"></div><br>
 		</div>
-		<button type="Submit">Send</botton>
-		</form></p>
+		<button class="Submit">Send</button>
+		</form></p></div>
+		<div class="tainer">
 		
-		</div>
-		
-	
-	<div id="content2">Reach Us
-	<table>
+		<div id="input-column">Reach Us<table>
 	<tr><td>Email</td><br>
 	<td>Nimadorjelama19@gmail.com</td></tr><br>
 	<tr><td>Phone</td><br>
@@ -59,10 +58,25 @@
 	Gokarneshwor 12
 	</td></tr>
 	</table>
-	</div>
 		</div>
-		<div class="footer">About me<div>
 		</div>
+		</div>
+		
+		<div class="footer">About me</div>
+		
+		<script>
+        function myFunction(){
+           var x = document.getElementById("menu"); 
+            
+            if(x.style.display == "block")
+            {
+                x.style.display = "none";
+            }
+            else{
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 
 </html>

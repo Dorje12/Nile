@@ -4,68 +4,72 @@
 	margin: 0px;
 	padding: 0px;
 	}
-nav{
-	display:flex;
-	padding: 4% 7%;
-	justify-content: space-between;
-	align-items: center;
-	background-color: #000000;
-	}
-	nav h1{
-		color:#fff;
-		font-size: 40px;
-		
-	}
-.nav-links{
-	flex:1;
-	text-align: right;
-	
+.nav-bar{
+	background-color: #1d4052;
+	color: #fff ;
+	padding:20px;
+	font-family: sans-serif;
 }
-.nav-links ul li{
-	list-style: none;
+
+.menu-right{
+	text-align:right;
+}
+ul li{
 	display: inline-block;
-	padding: 8px 12px;
-	position: relative;
+	margin: 20px;
+	list-style: none;
 }
-.nav-links ul li a{
-	color:#fff;
+span{
+	margin: 0 20px;
+	font-size: 28px;
+	cursor: pointer;
+	display:none;
+}
+ul li a{
+	color: #fff;
 	text-decoration:none;
 	font-size: 15px;
 }
-.nav-links ul li:after{
+ul li::after{
 	content:'';
-	width: 0%;
-	height: 2px;
+	width:0%;
+	height:2px;
 	background: #f44336;
 	display: block;
 	margin: auto;
 	transition: 0.5s;
 }
-.nav-links ul li:hover::after{
-	width:100%;
+ul li:hover::after{
+	width:100%
 }
-
+@media(max-width: 700px){
+	span{
+		display: block;
+	}
+	ul li{
+		display: block;
+	}
+	ul{
+		display:none;
+	}
+}
 
 .rapper{
 	display:grid;
-	grid-template-columns:20% 30% 50%;
-	grid-template-rows:182%;
-	background-color:#A9A9A9;
-	color:#000000;
-	text-align:center;
-	padding-top:280px;
-	padding-bottom:280px;
-	font-size: 50px;
-}
+	grid-template-columns:100%;
+	grid-template-rows: 100%;
 
+	
+}
 .rapper{
 	background-color:#A9A9A9;
 	color:#000000;
 	text-align:center;
-	padding-top:0px;
+	padding-top:130px;
 	padding-bottom:210px;
 	font-size: 50px;
 }
+
 .rapper #content1{
 	background-color:#778899;
 	color:#000000;
@@ -73,21 +77,37 @@ nav{
 	padding-bottom:100px;
 	text-align:center;
 }
-.rapper #content2{
+.pper{
+	display:grid;
+	grid-template-comlums:100%;
+	grid-template-rows: 100%;
+	
+}
+.pper #content2{
 	background-color:#F5F5F5;
 	color:#000000;
 	padding-top:100px;
 	padding-bottom:100px;
+	padding-left:200px;
+	padding-right:200px;
 	text-align:center;
 }
-.rapper #content3{
+.er{
+	display:grid;
+	grid-template-comlums:100%;
+	grid-template-rows: 100%;
+	
+}
+
+.er #content3{
 	background-color:#778899;
 	color:#000000;
 	padding-top:100px;
 	padding-bottom:100px;
+	padding-left:172px;
+	padding-right:150px;
 	text-align:center;
 }
-
 .footer{
   display:grid;
   grid-template-columns: 100%;
@@ -95,12 +115,33 @@ nav{
   
 }
 .footer{
-	background-color:#000000;
+	background-color:#1d4052;
 	color:#fff;
 	text-align:center;
 	font-size: 50px;
-	padding-top:20px;
-	padding-bottom: 30px;
+	
+}
+
+
+@media(max-width: 700px){
+	.rapper{
+		font-size:25px;
+	}
+	.footer{
+		font-size:15px;
+	}
+	.rapper{
+		grid-template{
+			grid-template-columns: 1fr;
+			grid-template-rows: 1fr 1.2fr 1.2fr 0.8;
+			grid-template-areas:
+			"rapper"
+			"pper"
+			"er";
+			"footer";
+		}
+	
+	}
 }
 	
 	

@@ -7,11 +7,12 @@
 
 </head>
 <body>
-<div class="header">
-	<nav>
-	<h1>Dorje</h1>
-			<div class="nav-links">
-			<ul>
+
+<div class="nav-bar">
+			
+			<div class="menu-right">
+				<span onClick="myFunction()">&#9776 </span>
+			<ul ID="menu">
 				<li><a href="Home.html">Home</a></li>
 				<li><a href="Portfolio.html">Portfolio</a></li>
 				<li><a href="contact.html">Contact</a></li>
@@ -20,18 +21,32 @@
 				
 			</ul>
 			</div></nav>
+			</div>
 			
 		<div class="rapper">
 		<div class="conten1">What I do</div>
+		</div>
+		<div class="pper">
+		<div id="content2">Photo</div></div>
 		
-		<div id="content2">Photo</div>
-		
-		
+		<div class="er">
 		<div id="content3">Photo</div></div>
 		
 
-		</div>
-		<div class="footer">About me</div>
 		
+		<div class="footer">About me</div>
+		<script>
+        function myFunction(){
+           var x = document.getElementById("menu"); 
+            
+            if(x.style.display == "block")
+            {
+                x.style.display = "none";
+            }
+            else{
+                x.style.display = "block";
+            }
+        }
+    </script>
 </body>
 

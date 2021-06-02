@@ -78,10 +78,9 @@ ul li:hover::after{
 }
 .pper{
 	display:grid;
-	grid-template-comlums:100%;
-	grid-template-rows: 100%;
-	
-}
+	grid-template-columns :100%;
+	grid-template-rows : 100%;
+	}
 .pper #content2{
 	background-color:#F5F5F5;
 	color:#000000;
@@ -93,7 +92,7 @@ ul li:hover::after{
 }
 .er{
 	display:grid;
-	grid-template-comlums:100%;
+	grid-template-columns:100%;
 	grid-template-rows: 100%;
 	
 }
@@ -144,21 +143,22 @@ ul li:hover::after{
 	.rapper{
 		font-size:25px;
 	}
-	.footer{
-		font-size:15px;
-	}
 	.rapper{
-		grid-template{
+		
 			grid-template-columns: 1fr;
-			grid-template-rows: 1fr 1.2fr 1.2fr 0.8;
+			grid-template-rows: 1fr 1.2fr 1.2fr 0.8fr;
 			grid-template-areas:
 			"rapper"
 			"pper"
-			"er";
+			"er"
 			"footer";
 		}
 	
+	.footer{
+		font-size:15px;
 	}
+	
+	
 }
 	
 	

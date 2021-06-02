@@ -56,7 +56,7 @@ ul li:hover::after{
 .wrapper{
 	display:grid;
 	grid-template-columns: 100% ;
-	grid-template-rows:100%;
+	grid-template-rows:1fr;
 	
 }
 .wrapper{
@@ -75,8 +75,8 @@ ul li:hover::after{
 }
 .reference{
 	display:grid;
-	grid-template:100%;
-	grid-template:100%;
+	grid-template-columns:1fr;
+	grid-template-rows:1fr;
 }
 .reference{
 	font-size: 35px;
@@ -86,45 +86,7 @@ ul li:hover::after{
 .reference{
 	font-size:15px;
 }
-.rapper{
-	display:grid;
-	grid-template-columns:100%;
-	grid-template-rows: 180%;
 
-	
-}
-.rapper{
-	background-color:#A9A9A9;
-	color:#000000;
-	text-align:left;
-	padding-top:130px;
-	padding-bottom:210px;
-	font-size: 50px;
-}
-.rapper #content1{
-	background-color:#778899;
-	color:#000000;
-	padding-top:100px;
-	padding-bottom:100px;
-	text-align:center;
-}
-.rapper #content2{
-	background-color:#F5F5F5;
-	color:#000000;
-	padding-top:100px;
-	padding-bottom:100px;
-	text-align:center;
-}
-.rapper #content3{
-	background-color:#778899;
-	color:#000000;
-	padding-top:100px;
-	padding-bottom:100px;
-	text-align:center;
-}
-.rapper h1{
-	font-size:10px;
-}
 .footer{
   display:grid;
   grid-template-columns: 100%;
@@ -175,21 +137,12 @@ ul li:hover::after{
 		padding-left:20px;
 	
 	}
-	.rapper{
-		font-size:25px;
-	}
+
 	.footer{
 		font-size:15px;
 	}
 	
-	.rapper{
-		grid-template-columns: 1fr;
-		grid-template-rows: 1fr 1fr 1fr;
-		grid-template-areas:
-		"content1"
-		"content2"
-		"content3";
-		
+	
 		
 	}
 

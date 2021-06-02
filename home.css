@@ -1,4 +1,4 @@
-* {
+*{
 	margin: 0px;
 	padding: 0px;
 	}
@@ -155,8 +155,7 @@ ul li:hover::after{
 		"content1"
 		"content2"
 		"content3";
-		
-		
+		}
 	}
 
 	

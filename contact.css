@@ -54,13 +54,13 @@ ul li:hover::after{
 }
 
 
-.wrapper{
+.contact1{
 	display:grid;
 	grid-template-columns: 100%;
 	grid-template-rows:100%;
 	
 }
-.wrapper{
+.contact1{
 	background-color:#A9A9A9;
 	color:#000000;
 	text-align:center;
@@ -68,13 +68,13 @@ ul li:hover::after{
 	padding-bottom:180px;
 	font-size: 50px;
 }
-.wrapper h1{
+.contact1 h1{
 	text-decoration: none;
 	font-size: 30px;
 	padding-bottom: 40px;
 
 }
-.wrapper p{
+.contact1 p{
 	font-size: 15px;
 }
  .container{

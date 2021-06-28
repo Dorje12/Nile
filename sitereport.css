@@ -53,22 +53,22 @@ ul li:hover::after{
 }
 
 
-.wrapper{
+.sitereport1{
 	display:grid;
 	grid-template-columns: 100% ;
 	grid-template-rows:1fr;
 	
 }
-.wrapper{
+.sitereport1{
 	background-color:#A9A9A9;
 	color:#000000;
 	padding-bottom: 20px;
 	
 }
-.wrapper h1{
+.sitereport1 h1{
 	font-size:35px;
 }
-.wrapper h1 p{
+.sitereport1 h1 p{
 	font-size:15px;
 	text-decoration:none;
 	
@@ -120,17 +120,17 @@ ul li:hover::after{
 		transition: 1s;
 	}
 	@media(max-width:700px){
-	.wrapper{
+	.sitereport1{
 		text-align:justify;
 	}
 	.reference p{
 		font-size:15px;
 	}
-	.wrapper div{
+	.sitereport1 div{
 		font-size: 30px;
 		
 	}
-	.wrapper div h1{
+	.sitereport1 div h1{
 		font-size: 15px;
 	}
 	.text-box {

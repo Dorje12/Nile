@@ -52,14 +52,14 @@ ul li:hover::after{
 	}
 }
 
-.rapper{
+.portfolio1{
 	display:grid;
 	grid-template-columns:100%;
 	grid-template-rows: 100%;
 
 	
 }
-.rapper{
+.portfolio1{
 	background-color:#A9A9A9;
 	color:#000000;
 	text-align:center;
@@ -68,7 +68,7 @@ ul li:hover::after{
 	font-size: 50px;
 }
 
-.rapper #content1{
+.portfolio1 #content1{
 	background-color:#778899;
 	color:#000000;
 	padding-top:100px;
@@ -140,15 +140,15 @@ ul li:hover::after{
 
 
 @media(max-width: 700px){
-	.rapper{
+	.portfolio1{
 		font-size:25px;
 	}
-	.rapper{
+	.portfolio1{
 		
 			grid-template-columns: 1fr;
 			grid-template-rows: 1fr 1.2fr 1.2fr 0.8fr;
 			grid-template-areas:
-			"rapper"
+			"portfolio1"
 			"pper"
 			"er"
 			"footer";

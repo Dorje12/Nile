@@ -52,7 +52,7 @@ ul li:hover::after{
 	}
 }
 
-.wrapper{
+.cv1{
 	display:grid;
 	grid-template-columns:1fr 1fr;
 	grid-template-rows: 1fr;
@@ -114,7 +114,7 @@ ul li:hover::after{
 	.footer{
 		font-size:15px;
 	}
-	.wrapper{
+	.cv1{
 		grid-template-columns: 1fr;
 		grid-template-rows: 1fr 1fr;
 		grid-template-areas:

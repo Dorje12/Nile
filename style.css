@@ -420,12 +420,7 @@ button:hover{
 		"content2";
 	}
 }
-@media(max-width:380px){
-	.logo{
-		height:"100px";
-		width:"150px";
-	}
-}
+
 
 	/*sitereport media*/
 	
